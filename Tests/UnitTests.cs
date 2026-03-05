@@ -68,8 +68,7 @@ public class Multiplication
         Assert.AreEqual(2, Program.Multiply("1", "2"));
         Assert.AreEqual(6, Program.Multiply("3", "2"));
 
-        // INTENTIONAL FAILING ASSERT (should be 35)
-        Assert.AreEqual(34, Program.Multiply("5", "7"));
+        Assert.AreEqual(35, Program.Multiply("5", "7"));
     }
 
     [TestMethod]
